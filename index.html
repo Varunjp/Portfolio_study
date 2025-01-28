@@ -166,13 +166,13 @@
                                 <p>Intermidiate</p>
                             </div>
                         </article>
-                        <article>
+                        <!-- <article>
                             <img src="Resource/icons/checkmark-icon.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Git</h3>
                                 <p>Basic</p>
                             </div>
-                        </article>
+                        </article> -->
                         <article>
                             <img src="Resource/icons/checkmark-icon.png" alt="Experience icon" class="icon">
                             <div>
@@ -237,16 +237,29 @@
     <section id="contact">
         <p class="section__text_p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img src="Resource/icons/contact-icon.png" alt="email icon" class="icon contact-icon">
-                <p><a href="mailto:varunjp@gmail.com">varunjp@gmail.com</a></p>
+        <div class="contact-grid-container">
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="Resource/icons/contact-icon.png" alt="email icon" class="icon contact-icon">
+                    <p><a href="mailto:varunjp@gmail.com">varunjp@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="Resource/icons/linkedin-icon.png" alt="email icon" class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/varun-jp">LinkedIn</a></p>
+                </div>
             </div>
-            <div class="contact-info-container">
-                <img src="Resource/icons/linkedin-icon.png" alt="email icon" class="icon contact-icon">
-                <p><a href="https://www.linkedin.com/in/varun-jp">LinkedIn</a></p>
+            <div class="contact-info-upper-container">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="c1dbf0ea-7858-4b94-9d38-28f092b6280f">
+
+                    <input class="js-name" type="text" placeholder="Your Name" name="Name">
+                    <input class="js-email"  type="email" placeholder="Your email ID" name="email">
+                    <textarea class="js-message" name="Message" placeholder="Your message" id=""></textarea>
+                    <button type="submit" class="btn btn-color-2 form-submit-btn"    onclick="clearField();">Submit</button>
+                </form>
             </div>
         </div>
+        
     </section>
     <!-- Footer -->
      

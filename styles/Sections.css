@@ -236,8 +236,17 @@ article.icon{
     height: 70vh;
 }
 
+.contact-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 0 20rem;
+    gap: 1rem;
+}
+
 .contact-info-upper-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
@@ -246,11 +255,46 @@ article.icon{
     margin: 2rem auto;
     padding: 0.5rem;
 }
+.contact-info-upper-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.contact-info-upper-container form input{
+    width: 50vh;
+    height: 2rem;
+    padding: 0.5rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-radius: 0.5rem;
+    
+    font-weight: 500;
+    font-family: "Poppins", serif;
+}
+
+.contact-info-upper-container form textarea{
+    width: 50vh;
+    
+    height: 5rem;
+    padding: 0.5rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+}
+
+
+
+.form-submit-btn:hover{
+    background-color: black;
+}
 
 .contact-info-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.5rem;
     margin: 1rem;
 }

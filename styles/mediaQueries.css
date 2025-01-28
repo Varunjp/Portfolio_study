@@ -51,6 +51,25 @@
     margin-top: 0;
   }
 
+  .contact-grid-container{
+    margin: 0 auto;
+  }
+
+  .contact-grid-container{
+    display: block;
+  }
+
+  .contact-info-upper-container form{
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .contact-info-upper-container form input, .contact-info-upper-container form textarea{
+    width: 90%;
+    margin: auto;
+  }
+
+
 }
 
 @media screen and (max-width: 600px){
