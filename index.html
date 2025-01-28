@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/General.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/Sections.css">
+    <link rel="stylesheet" href="styles/mediaQueries.css">
+    
+</head>
+<body>
+    <!-- Desktop Nagivation area -->
+    
+    <nav id="desktop-nav">
+        <div class="logo ">Varun JP</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hamburger Nagivation area -->
+    
+    <nav id="hamburger-nav">
+        <div class="logo ">Varun JP</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon"             onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+      
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!--Main content-->
+
+    <!-- Profile section -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="Resource/Picture/Pro-pic1.png" alt="Varun jp profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text_p1">Hello,I'm</p>
+            <h1 class="title">Varun Jp</h1>
+            <p class="section__text_p2">Full stack developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick=" window.open('./Resource/Resume/Varun_Developer.pdf') ">Download CV</button>
+                <button class="btn btn-color-1" onclick=" location.href='./#contact'">Contact info</button>
+            </div>
+            <div id="socials-container">
+                <img src="Resource/icons/linkedin-icon.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/varun-jp'">
+                <img src="Resource/icons/github-icon.png" alt="My github profile" class="icon" onclick="location.href='https://github.com/Varunjp'">
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+        <p class="section__text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="Resource/Picture/profile-pic-2.png" alt="profile picutre" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="Resource/icons/experience-icon.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ years <br>Full stack developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="Resource/icons/education-icon.png" alt="Experience icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.E <br>Electronics and Communication</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iusto delectus enim, labore ea aut exercitationem corporis nam? Reiciendis eligendi dignissimos quod accusantium dolore aperiam dolor qui nesciunt nemo. Voluptatibus.</p>
+                </div>
+            </div> 
+        </div>
+        <img src="Resource/icons/down-arrow.png" alt="down arrow" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+
+    <!-- Experience section-->
+
+    <section id="experience">
+        <p class="section__text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="Resource/icons/checkmark-icon.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Resource/icons/checkmark-icon.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Css</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Resource/icons/checkmark-icon.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Intermidiate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Resource/icons/checkmark-icon.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Java Script</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Resource/icons/checkmark-icon.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Type Script</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="Resource/icons/checkmark-icon.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Resource/icons/checkmark-icon.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Node.js</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Resource/icons/checkmark-icon.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Express js</h3>
+                                <p>Intermidiate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Resource/icons/checkmark-icon.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Resource/icons/checkmark-icon.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Type Script</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="Resource/icons/down-arrow.png" alt="down arrow" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+
+    <!-- Projects section -->
+
+    <section id="projects">
+        <p class="section__text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container color-container">
+                    <!-- Add image -->
+                    <div class="article-container">
+                        <img src="" alt="project-1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='githum.com'">Git Hub</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='githum.com'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <!-- Add image -->
+                    <div class="article-container">
+                        <img src="" alt="project-1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='githum.com'">Git Hub</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='githum.com'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <!-- Add image -->
+                    <div class="article-container">
+                        <img src="" alt="project-1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='githum.com'">Git Hub</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='githum.com'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="Resource/icons/down-arrow.png" alt="down arrow" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+
+    <!-- Contact section -->
+
+    <section id="contact">
+        <p class="section__text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="Resource/icons/contact-icon.png" alt="email icon" class="icon contact-icon">
+                <p><a href="mailto:varunjp@gmail.com">varunjp@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="Resource/icons/linkedin-icon.png" alt="email icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/varun-jp">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+     
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169 2024 Varun Jp. All right Reservered</p>
+    </footer>
+
+    <script src="scripts/js-general.js"></script>
+</body>
+</html>
