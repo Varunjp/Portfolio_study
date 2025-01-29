@@ -227,6 +227,18 @@ article.icon{
     border-color: rgb(163,163,163);
 }
 
+/* Trip section*/
+
+#trip{
+    position: relative;
+}
+
+/* Other section*/
+
+#other{
+    position: relative;
+}
+
 /* Contact section */
 
 #contact{
