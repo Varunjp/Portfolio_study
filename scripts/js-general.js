@@ -7,12 +7,5 @@ function toggleMenu(){
     icons.classList.toggle("open")
 }
 
-function clearField(){
-    const nameField = document.querySelector('.js-name');
-    const emailField = document.querySelector('.js-email');
-    const MessageField = document.querySelector('.js-message');
 
-    nameField.value="";
-    emailField.value="";
-    MessageField.value="";
-}
+
